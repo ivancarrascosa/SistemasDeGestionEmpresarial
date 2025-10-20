@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var hora = ViewData["Hora"];
+    var mensaje = ViewBag.mensaje;
+    @model EjerciciosUnidad7.Models.Entities.Persona
+}
+
+<div class="text-center">
+    <h1 class="display-4">@hora</h1>
+    <p>@mensaje</p>
+    <p>@Model.id</p>
+    <p>@Model.nombre</p>
+    <p>@Model.apellido</p>
+</div>
