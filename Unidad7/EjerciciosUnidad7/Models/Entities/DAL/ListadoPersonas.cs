@@ -4,6 +4,11 @@
     {
         private List<Persona> _lista;
         
+        public ListadoPersonas(List<Persona> ListaPersonas)
+        {
+            _lista = ListaPersonas;
+        }
+
         public List<Persona> lista
         {
             get { return _lista; }

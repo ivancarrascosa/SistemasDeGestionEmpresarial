@@ -1,5 +1,28 @@
 ﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+   
 *@
 @{
+    @model EjerciciosUnidad7.Models.Entities.DAL.ListadoPersonas
 }
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+    </tr>
+    @foreach (var persona in Model.lista)
+    {
+        <tr>
+            <td>@persona.id</td>
+            <td>@persona.nombre</td>
+            <td>@persona.apellido</td>
+        </tr>
+
+    }
+</table>
+@Html.ActionLink("Volver al inicio", "Index", "Home")
+<h2>Ejercicio 3:</h2>
+<p>Persona numero 3 del array</p>
+<p>Id: @Model.lista[2].id</p>
+<p>Nombre: @Model.lista[2].nombre</p>
+<p>Apellido: @Model.lista[2].apellido</p>
