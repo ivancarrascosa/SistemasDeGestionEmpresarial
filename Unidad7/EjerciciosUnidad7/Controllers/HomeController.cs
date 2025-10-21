@@ -19,7 +19,7 @@ namespace EjerciciosUnidad7.Controllers
         {
             var hora = DateTime.Now;
             var mensaje = "";
-            var persona = new Persona(1, "Iván", "Carrascosa");
+            var persona = new Persona(1, "Iván", "Carrascosa", new Departamento(2, "Finanzas"));
             if (hora.Hour < 12)
             {
                 mensaje = "Buenos días";
@@ -45,10 +45,12 @@ namespace EjerciciosUnidad7.Controllers
 
         public IActionResult EditarPersona()
         {
+            ListadoDepartamentos listadoDepartamentos = new ListadoDepartamentos();
             ListadoPersonas listadoPersonas = new ListadoPersonas();
             Random random = new Random();
             int numero = random.Next(0, listadoPersonas.lista.Count() - 1);
-            return View(listadoPersonas.lista[numero]);
+            PersonaDepartamentosViewModel modelo = new PersonaDepartamentosViewModel(listadoPersonas.lista[numero],listadoDepartamentos);
+            return View(modelo);
         }
         public IActionResult Privacy()
         {

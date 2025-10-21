@@ -11,5 +11,9 @@
     <p>@Model.id</p>
     <p>@Model.nombre</p>
     <p>@Model.apellido</p>
+    <p>@Model.departamento.idDepartamento</p>
+    <p>@Model.departamento.nombreDepartamento</p>
 </div>
 @Html.ActionLink("Listado de personas", "ListadoPersonas", "Home")
+<br />
+@Html.ActionLink("Editar persona", "EditarPersona", "Home")

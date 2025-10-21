@@ -2,4 +2,44 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    @model EjerciciosUnidad7.Models.PersonaDepartamentosViewModel
+    var persona = Model.persona;
+    var listaDepartamentos = Model.listadoDepartamentos;
 }
+
+<h2>Editar Persona</h2>
+
+<form asp-action="Guardar">
+    <div>
+        @Html.LabelFor(model => persona.nombre)
+        @Html.TextBoxFor(model => persona.nombre, new { @class = "form-control" })
+    </div>
+
+    <div>
+        @Html.LabelFor(model => persona.apellido)
+        @Html.TextBoxFor(model => persona.apellido, new { @class = "form-control" })
+    </div>
+
+    <div>
+        @Html.Label("Departamento")
+        <select name="DepartamentoId" class="form-control">
+            @foreach (var depto in listaDepartamentos.lista)
+            {
+                if (persona?.departamento != null && persona.departamento.idDepartamento == depto.idDepartamento)
+                {
+                    <option value="@depto.idDepartamento" selected>@depto.nombreDepartamento</option>
+                }
+                else
+                {
+                    <option value="@depto.idDepartamento">@depto.nombreDepartamento</option>
+                }
+            }
+        </select>
+    </div>
+
+    <!-- Agrega más campos según las propiedades de la clase Persona -->
+
+    <div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+</form>
