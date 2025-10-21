@@ -65,3 +65,4 @@ C:\Users\Usuario\Desktop\SistemasDeGestionEmpresarial\Unidad7\EjerciciosUnidad7\
 C:\Users\Usuario\Desktop\SistemasDeGestionEmpresarial\Unidad7\EjerciciosUnidad7\obj\Debug\net8.0\EjerciciosUnidad7.pdb
 C:\Users\Usuario\Desktop\SistemasDeGestionEmpresarial\Unidad7\EjerciciosUnidad7\obj\Debug\net8.0\EjerciciosUnidad7.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\SistemasDeGestionEmpresarial\Unidad7\EjerciciosUnidad7\obj\Debug\net8.0\ref\EjerciciosUnidad7.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad7\EjerciciosUnidad7\obj\Debug\net8.0\EjerciciosUnidad7.sourcelink.json
