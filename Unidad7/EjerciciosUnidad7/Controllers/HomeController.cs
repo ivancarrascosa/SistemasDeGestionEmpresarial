@@ -2,6 +2,7 @@ using System.Diagnostics;
 using EjerciciosUnidad7.Models;
 using EjerciciosUnidad7.Models.Entities;
 using EjerciciosUnidad7.Models.Entities.DAL;
+using EjerciciosUnidad7.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EjerciciosUnidad7.Controllers
@@ -45,6 +46,7 @@ namespace EjerciciosUnidad7.Controllers
 
         public IActionResult EditarPersona()
         {
+            /// El random lo tiene que hacer la clase, no el controlador 
             ListadoDepartamentos listadoDepartamentos = new ListadoDepartamentos();
             ListadoPersonas listadoPersonas = new ListadoPersonas();
             Random random = new Random();

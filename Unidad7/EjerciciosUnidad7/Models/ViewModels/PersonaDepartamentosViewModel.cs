@@ -1,7 +1,7 @@
 ﻿using EjerciciosUnidad7.Models.Entities;
 using EjerciciosUnidad7.Models.Entities.DAL;
 
-namespace EjerciciosUnidad7.Models
+namespace EjerciciosUnidad7.Models.ViewModels
 {
     public class PersonaDepartamentosViewModel
     {
@@ -15,12 +15,10 @@ namespace EjerciciosUnidad7.Models
         public Persona persona
         {
             get { return _persona; }
-            set { _persona = value; }
         }
         public ListadoDepartamentos listadoDepartamentos
         {
             get { return _listadoDepartamentos; }
-            set { _listadoDepartamentos = value; }
         }
 
     }

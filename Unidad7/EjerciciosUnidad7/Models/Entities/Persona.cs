@@ -6,7 +6,7 @@
         private int _id;
         private string _nombre;
         private string _apellido;
-        private Departamento _departamento;
+        private Departamento _departamento; // Aquí debo meter solo el id, no el departamento entero, es equivalente a las tablas de la base de datos
 
         #endregion
         #region getters y setters
