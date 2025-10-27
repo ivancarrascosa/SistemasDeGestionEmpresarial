@@ -20,7 +20,7 @@ namespace EjerciciosUnidad7.Controllers
         {
             var hora = DateTime.Now;
             var mensaje = "";
-            var persona = new Persona(1, "Iván", "Carrascosa", new Departamento(2, "Finanzas"));
+            var persona = new Persona(1, "Iván", "Carrascosa", 2);
             if (hora.Hour < 12)
             {
                 mensaje = "Buenos días";
@@ -47,11 +47,7 @@ namespace EjerciciosUnidad7.Controllers
         public IActionResult EditarPersona()
         {
             /// El random lo tiene que hacer la clase, no el controlador 
-            ListadoDepartamentos listadoDepartamentos = new ListadoDepartamentos();
-            ListadoPersonas listadoPersonas = new ListadoPersonas();
-            Random random = new Random();
-            int numero = random.Next(0, listadoPersonas.lista.Count() - 1);
-            PersonaDepartamentosViewModel modelo = new PersonaDepartamentosViewModel(listadoPersonas.lista[numero],listadoDepartamentos);
+            PersonaDepartamentosViewModel modelo = new PersonaDepartamentosViewModel();
             return View(modelo);
         }
         public IActionResult Privacy()

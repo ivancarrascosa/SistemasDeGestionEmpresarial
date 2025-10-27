@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:views\\home\\editarpersona.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\viewmodels\\personadepartamentosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\viewmodels\\personadepartamentosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\entities\\dal\\listadodepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\entities\\dal\\listadodepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\viewmodels\\personadepartamentosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\viewmodels\\personadepartamentosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\entities\\dal\\listadopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\entities\\dal\\listadopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\entities\\dal\\listadopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\entities\\dal\\listadopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\models\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|solutionrelative:models\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33CC962E-2A0A-4376-8476-D82061855B5A}|EjerciciosUnidad7.csproj|c:\\users\\ivan.carrascosa\\desktop\\sistemasdegestionempresarial\\unidad7\\ejerciciosunidad7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,13 +46,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PersonaDepartamentosViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\ViewModels\\PersonaDepartamentosViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\PersonaDepartamentosViewModel.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\ViewModels\\PersonaDepartamentosViewModel.cs",
               "RelativeToolTip": "Models\\ViewModels\\PersonaDepartamentosViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T14:21:55.081Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "Models\\Entities\\DAL\\ListadoDepartamentos.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\Entities\\DAL\\ListadoDepartamentos.cs",
               "RelativeToolTip": "Models\\Entities\\DAL\\ListadoDepartamentos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T14:20:01.871Z",
               "EditorCaption": ""
@@ -78,14 +78,14 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-21T13:40:30.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Departamento.cs",
@@ -104,33 +104,33 @@
               "RelativeDocumentMoniker": "Models\\Entities\\Persona.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\Entities\\Persona.cs",
               "RelativeToolTip": "Models\\Entities\\Persona.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAgAAACVAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T12:07:44.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAADAAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T12:06:05.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ListadoPersonas.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\Entities\\DAL\\ListadoPersonas.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\DAL\\ListadoPersonas.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Models\\Entities\\DAL\\ListadoPersonas.cs",
               "RelativeToolTip": "Models\\Entities\\DAL\\ListadoPersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T12:38:25.724Z",
               "EditorCaption": ""
@@ -143,7 +143,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\EditarPersona.cshtml",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad7\\EjerciciosUnidad7\\Views\\Home\\EditarPersona.cshtml",
               "RelativeToolTip": "Views\\Home\\EditarPersona.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-21T10:33:24.776Z",
               "EditorCaption": ""

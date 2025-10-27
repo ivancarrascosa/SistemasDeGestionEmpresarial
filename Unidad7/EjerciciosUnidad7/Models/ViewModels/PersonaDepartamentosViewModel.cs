@@ -6,17 +6,20 @@ namespace EjerciciosUnidad7.Models.ViewModels
     public class PersonaDepartamentosViewModel
     {
         private Persona _persona;
-        private ListadoDepartamentos _listadoDepartamentos;
-        public PersonaDepartamentosViewModel(Persona persona, ListadoDepartamentos listadoDepartamentos)
+        private List<Departamento> _listadoDepartamentos;
+        public PersonaDepartamentosViewModel()
         {
-            _persona = persona;
-            _listadoDepartamentos = listadoDepartamentos;
+            ListadoPersonas listadoPersonas = new ListadoPersonas();
+            Random random = new Random();
+            int numero = random.Next(0, listadoPersonas.lista.Count() - 1);
+            _persona = listadoPersonas.lista[numero];
+            _listadoDepartamentos = new ListadoDepartamentos().lista;
         }
         public Persona persona
         {
             get { return _persona; }
         }
-        public ListadoDepartamentos listadoDepartamentos
+        public List<Departamento> listadoDepartamentos
         {
             get { return _listadoDepartamentos; }
         }
