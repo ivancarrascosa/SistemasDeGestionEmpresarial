@@ -40,5 +40,15 @@ namespace Formulario.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult Ejercicio2()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Ejercicio2(String nombre)
+        {
+            return RedirectToAction("Saludo", new { nombre = nombre });
+        }
     }
 }

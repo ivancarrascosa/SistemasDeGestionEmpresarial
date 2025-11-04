@@ -1,10 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Index";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     @Html.ActionLink("Ejercicio 1", "Saludo", "Home", new {nombre = "Ivan"})
+    @Html.ActionLink("Ejercicio 2", "Ejercicio2", "Home")
     <form method="post" action="">
         <input type="text"/ name="nombre">
         <input type="submit" value="Enviar" />

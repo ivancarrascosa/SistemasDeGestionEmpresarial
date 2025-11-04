@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj",
         "projectName": "Formulario",
-        "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj",
-        "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\Formulario.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad8\\Formulario\\Formulario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
