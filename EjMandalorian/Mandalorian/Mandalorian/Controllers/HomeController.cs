@@ -19,17 +19,24 @@ namespace Mandalorian.Controllers
 
         public IActionResult Index([FromServices] IUseCase listadoMisionesUseCase)
         {
-            return View(listadoMisionesUseCase.getMisiones());
+            List<Mision> misiones = [];
+            ViewBag.errorMessage = string.Empty;
+            try
+            {
+                misiones = listadoMisionesUseCase.getMisiones();
+                return View(misiones);
+            } catch (Exception ex) {
+                ViewBag.errorMessage = ex.Message;
+                return View(misiones);
+            }
+            
         }
 
-        [HttpPost]
-        public IActionResult Index(IndexVM model)
-        {
-            var misiones = _useCase.getMisiones();
-            var seleccionada = misiones.FirstOrDefault(m => m.Id == model.MisionSeleccionadaId);
 
-            var vm = new IndexVM(misiones, seleccionada);
-            return View(vm);
+        [HttpPost]
+        public IActionResult Index(misionId int)
+        {
+            
         }
 
         public IActionResult Privacy()

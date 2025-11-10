@@ -7,18 +7,25 @@
 <h2>@ViewData["Title"]</h2>
 
 <form method="post" asp-action="Seleccionar">
-    <label for="misionId">Elige una misión:</label>
+    
+    @if (ViewBag.errorMessage != "")
+    {
+        <h2>@ViewBag.errorMessage</h2>
+    } else
+    {
+        <label for="misionId">Elige una misión:</label>
+        <select id="misionId" name="misionId" class="form-control">
+            <option value="">-- Selecciona una misión --</option>
+            @foreach (var m in Model)
+            {
+                <option value="@m.Id">
+                    @m.Nombre
+                </option>
+            }
+        </select>
 
-    <select id="misionId" name="misionId" class="form-control">
-        <option value="">-- Selecciona una misión --</option>
-        @foreach (var m in Model)
-        {
-            <option value="@m.Id">
-                @m.Nombre
-            </option>
-        }
-    </select>
-
-    <br />
-    <button type="submit" class="btn btn-primary">Aceptar</button>
+        <br />
+        <button type="submit" class="btn btn-primary">Ver detalles</button>
+    }
+    
 </form>
