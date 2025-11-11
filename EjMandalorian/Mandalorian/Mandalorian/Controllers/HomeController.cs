@@ -33,12 +33,33 @@ namespace Mandalorian.Controllers
             
         }
 
-        /*
+        // POST: Muestra la lista de misiones con la misión seleccionada
         [HttpPost]
-        public IActionResult Index(misionId int)
+        public IActionResult Seleccionar([FromServices] IUseCase listadoMisionesUseCase, int misionId)
         {
-            
-        }*/
+            ViewBag.errorMessage = string.Empty;
+
+            try
+            {
+                // Si no se seleccionó ninguna misión, redirigir al Index
+                if (misionId == 0)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                // Obtener la lista de misiones con la misión seleccionada
+                ListaMisionesConMisionElegida misiones =
+                    listadoMisionesUseCase.getListaMisionesConMisionElegida(misionId);
+
+                return View("Index", misiones);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.errorMessage = ex.Message;
+                ListaMisionesConMisionElegida misionesVacias = new ListaMisionesConMisionElegida([]);
+                return View("Index", misionesVacias);
+            }
+        }
 
         public IActionResult Privacy()
         {

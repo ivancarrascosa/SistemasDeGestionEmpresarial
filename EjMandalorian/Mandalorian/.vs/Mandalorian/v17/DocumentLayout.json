@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|solutionrelative:mandalorian\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\ejmandalorian\\mandalorian\\mandalorian\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|solutionrelative:mandalorian\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9985100-90D5-496F-8852-6B880D865470}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\ejmandalorian\\mandalorian\\domain\\usecases\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9985100-90D5-496F-8852-6B880D865470}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\listadomisionesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\ejmandalorian\\mandalorian\\mandalorian\\models\\indexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|solutionrelative:mandalorian\\models\\indexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\ejmandalorian\\mandalorian\\mandalorian\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58075561-813F-4C1A-85E4-C20C5DF07405}|Mandalorian\\UI.csproj|solutionrelative:mandalorian\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9985100-90D5-496F-8852-6B880D865470}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\ejmandalorian\\mandalorian\\domain\\dtos\\listamisionesconmisionelegida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "Domain\\DTOs\\ListaMisionesConMisionElegida.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:19:34.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:19:34.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ListadoMisionesUseCase.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\EjMandalorian\\Mandalorian\\Domain\\UseCases\\ListadoMisionesUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCases\\ListadoMisionesUseCase.cs",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Domain\\UseCases\\ListadoMisionesUseCase.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:23:58.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T18:23:58.476Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "CompositionRoot\\CompositionRoot.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-09T19:00:09.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T19:00:09.451Z"
             },
             {
               "$type": "Document",
@@ -117,18 +114,17 @@
               "RelativeToolTip": "CompositionRoot\\DI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:01:53.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T19:01:53.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\EjMandalorian\\Mandalorian\\Mandalorian\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Mandalorian\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\EjMandalorian\\Mandalorian\\Mandalorian\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Mandalorian\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBgAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T18:55:55.79Z",
               "EditorCaption": ""
@@ -141,14 +137,14 @@
               "RelativeDocumentMoniker": "Mandalorian\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\EjMandalorian\\Mandalorian\\Mandalorian\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Mandalorian\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-09T18:59:15.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IndexVM.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\EjMandalorian\\Mandalorian\\Mandalorian\\Models\\IndexVM.cs",
               "RelativeDocumentMoniker": "Mandalorian\\Models\\IndexVM.cs",
@@ -156,12 +152,11 @@
               "RelativeToolTip": "Mandalorian\\Models\\IndexVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:50:52.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T18:50:52.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Data.csproj",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\EjMandalorian\\Mandalorian\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
@@ -169,8 +164,7 @@
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-09T18:44:11.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T18:44:11.179Z"
             },
             {
               "$type": "Document",
@@ -194,8 +188,7 @@
               "RelativeToolTip": "Domain\\Entities\\Mision.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA9wBkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:13:17.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T18:13:17.233Z"
             },
             {
               "$type": "Document",
@@ -207,8 +200,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:26:26.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T18:26:26.887Z"
             },
             {
               "$type": "Document",
