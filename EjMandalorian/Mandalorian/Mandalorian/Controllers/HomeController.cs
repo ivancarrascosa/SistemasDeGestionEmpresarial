@@ -1,3 +1,4 @@
+using Domain.DTOs;
 using Domain.Entities;
 using Domain.Interfaces;
 using Domain.UseCases;
@@ -19,11 +20,11 @@ namespace Mandalorian.Controllers
 
         public IActionResult Index([FromServices] IUseCase listadoMisionesUseCase)
         {
-            List<Mision> misiones = [];
+            ListaMisionesConMisionElegida misiones = new ListaMisionesConMisionElegida([]);
             ViewBag.errorMessage = string.Empty;
             try
             {
-                misiones = listadoMisionesUseCase.getMisiones();
+                misiones = listadoMisionesUseCase.getListaMisionesConMisionElegida();
                 return View(misiones);
             } catch (Exception ex) {
                 ViewBag.errorMessage = ex.Message;
@@ -32,12 +33,12 @@ namespace Mandalorian.Controllers
             
         }
 
-
+        /*
         [HttpPost]
         public IActionResult Index(misionId int)
         {
             
-        }
+        }*/
 
         public IActionResult Privacy()
         {

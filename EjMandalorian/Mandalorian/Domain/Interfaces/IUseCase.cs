@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Domain.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,8 @@ namespace Domain.Interfaces
 {
     public interface IUseCase
     {
-        List<Mision> getMisiones();
+        ListaMisionesConMisionElegida getListaMisionesConMisionElegida(int id);
+        ListaMisionesConMisionElegida getListaMisionesConMisionElegida();
         Mision getMision(int id);
     }
 }

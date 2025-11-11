@@ -1,7 +1,7 @@
-﻿@model List<Domain.Entities.Mision>
-
+﻿@model Domain.DTOs.ListaMisionesConMisionElegida
 @{
     ViewData["Title"] = "Home Page";
+    var listaMisiones = Model.ListaMisiones;
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -16,7 +16,7 @@
         <label for="misionId">Elige una misión:</label>
         <select id="misionId" name="misionId" class="form-control">
             <option value="">-- Selecciona una misión --</option>
-            @foreach (var m in Model)
+            @foreach (var m in listaMisiones)
             {
                 <option value="@m.Id">
                     @m.Nombre
