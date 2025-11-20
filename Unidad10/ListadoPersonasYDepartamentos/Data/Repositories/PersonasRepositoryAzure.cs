@@ -76,7 +76,7 @@ namespace Data.Repositories
                     while (miLector.Read())
                     {
                         oPersona = new Persona((int)miLector["ID"], (string)miLector["Nombre"], (string)miLector["Apellidos"],
-                            (string)miLector["Direccion"], (string)miLector["Telefono"], (string)miLector["Imagen"], (int)miLector["Departamento"]);
+                            (string)miLector["Direccion"], (string)miLector["Telefono"], (string)miLector["Foto"], (int)miLector["IDDepartamento"]);
 
                         if (miLector["FechaNacimiento"] != DBNull.Value)
                         {

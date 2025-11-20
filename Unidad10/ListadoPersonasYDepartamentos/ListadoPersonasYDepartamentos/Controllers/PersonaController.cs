@@ -6,10 +6,17 @@ namespace UI.Controllers
 {
     public class PersonaController : Controller
     {
-        // GET: PersonaController
-        public ActionResult Index(IUseCase useCase)
+        private readonly IUseCase _useCase;
+        // Inyección de dependencias a través del constructor
+        public PersonaController(IUseCase useCase)
         {
-            return View(useCase.getListaPersonasConDepartamento());
+            _useCase = useCase;
+        }
+
+        // GET: PersonaController
+        public ActionResult Index()
+        {
+            return View(_useCase.getListaPersonasConDepartamento());
         }
 
         // GET: PersonaController/Details/5
