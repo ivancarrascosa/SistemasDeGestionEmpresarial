@@ -1,0 +1,10 @@
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.csproj.AssemblyReference.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.AssemblyInfoInputs.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.AssemblyInfo.cs
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.csproj.CoreCompileInputs.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.RazorAssemblyInfo.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.RazorAssemblyInfo.cs
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\ListadoPersonasYDepartamentos\obj\Debug\net8.0\UI.sourcelink.json

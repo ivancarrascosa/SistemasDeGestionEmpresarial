@@ -1,0 +1,6 @@
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.sourcelink.json

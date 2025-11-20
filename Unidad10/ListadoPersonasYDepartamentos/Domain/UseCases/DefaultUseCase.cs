@@ -1,5 +1,7 @@
-﻿using Domain.Entities;
+﻿using Domain.DTOs;
+using Domain.Entities;
 using Domain.Interfaces;
+using Domain.Mappers;
 using Domain.Repositories;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Domain.UseCases
 {
-    internal class DefaultUseCase : IUseCase
+    public class DefaultUseCase : IUseCase
     {
         private readonly IRepository _repository;
 
@@ -18,9 +20,15 @@ namespace Domain.UseCases
         {
             _repository = repository;
         }
-        public Persona[] getListaPersonas()
+        public PersonaConNombreDeDepartamentoDTO[] getListaPersonasConDepartamento()
         {
-            return _repository.getListaPersonas();
+            List<PersonaConNombreDeDepartamentoDTO> listaPersonasConNombreDepartamento = [];
+            List<Departamento> listaDepartamentos = _repository.getListaDepartamentos().ToList();
+            foreach (Persona persona in _repository.getListaPersonas())
+            {
+                listaPersonasConNombreDepartamento.Add(PersonaToPersonaConDepartamentoDTO.Mappers(persona, listaDepartamentos));
+            }
+            return listaPersonasConNombreDepartamento.ToArray();
         }
     }
 }

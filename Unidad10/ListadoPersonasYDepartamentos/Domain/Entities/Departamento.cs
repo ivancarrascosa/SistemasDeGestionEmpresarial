@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Departamento
+    public class Departamento
     {
         private int _id; 
         private string _nombre;

@@ -1,0 +1,6 @@
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.csproj.AssemblyReference.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.AssemblyInfoInputs.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.AssemblyInfo.cs
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.csproj.CoreCompileInputs.cache
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.sourcelink.json

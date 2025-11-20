@@ -12,6 +12,46 @@ namespace Data.Repositories
 {
     public class PersonasRepositoryAzure : IRepository
     {
+        public Departamento[] getListaDepartamentos()
+        {
+            SqlConnection miConexion = new SqlConnection();
+            List<Departamento> listadoDepartamentos = new List<Departamento>();
+            SqlCommand miComando = new SqlCommand();
+            SqlDataReader miLector = null;
+            Departamento oDepartamento;
+
+            miConexion.ConnectionString = Connection.getConnectionString();
+
+            try
+            {
+                miConexion.Open();
+
+                miComando.CommandText = "SELECT * FROM Departamentos";
+                miComando.Connection = miConexion;
+
+                miLector = miComando.ExecuteReader();
+
+                if (miLector.HasRows)
+                {
+                    while (miLector.Read())
+                    {
+                        oDepartamento = new Departamento((int)miLector["ID"], (string)miLector["Nombre"]);
+
+                        listadoDepartamentos.Add(oDepartamento);
+                    }
+                }
+
+                miLector.Close();
+                miConexion.Close();
+            }
+            catch (SqlException exSql)
+            {
+                throw exSql;
+            }
+
+            return listadoDepartamentos.ToArray();
+        }
+
         public Persona[] getListaPersonas()
         {
             SqlConnection miConexion = new SqlConnection();
@@ -26,7 +66,7 @@ namespace Data.Repositories
             {
                 miConexion.Open();
 
-                miComando.CommandText = "SELECT * FROM personas";
+                miComando.CommandText = "SELECT * FROM Personas";
                 miComando.Connection = miConexion;
 
                 miLector = miComando.ExecuteReader();
@@ -35,20 +75,13 @@ namespace Data.Repositories
                 {
                     while (miLector.Read())
                     {
-                        oPersona = new Persona((int)miLector["ID"], (string)miLector["Nombre"], (string)miLector["Apellidos"]
-                            oPersona.direccion = (string)miLector["Direccion"], oPersona.telefono = (string)miLector["Telefono"]);
-
-                        oPersona.id = (int)miLector["ID"];
-                        oPersona.nombre = (string)miLector["Nombre"];
-                        oPersona.apellido = (string)miLector["Apellidos"];
+                        oPersona = new Persona((int)miLector["ID"], (string)miLector["Nombre"], (string)miLector["Apellidos"],
+                            (string)miLector["Direccion"], (string)miLector["Telefono"], (string)miLector["Imagen"], (int)miLector["Departamento"]);
 
                         if (miLector["FechaNacimiento"] != DBNull.Value)
                         {
                             oPersona.fechaNac = (DateTime)miLector["FechaNacimiento"];
                         }
-
-                        oPersona.direccion = (string)miLector["Direccion"];
-                        oPersona.telefono = (string)miLector["Telefono"];
 
                         listadoPersonas.Add(oPersona);
                     }

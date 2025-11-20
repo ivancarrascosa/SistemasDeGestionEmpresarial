@@ -10,6 +10,11 @@ namespace Data.Repositories
 {
     public class PersonasRepositorio : IRepository
     {
+        public Departamento[] getListaDepartamentos()
+        {
+            throw new NotImplementedException();
+        }
+
         public Persona[] getListaPersonas()
         {
             return [

@@ -10,5 +10,7 @@ namespace Domain.Repositories
     public interface IRepository
     {
         Persona[] getListaPersonas();
+
+        Departamento[] getListaDepartamentos();
     }
 }
