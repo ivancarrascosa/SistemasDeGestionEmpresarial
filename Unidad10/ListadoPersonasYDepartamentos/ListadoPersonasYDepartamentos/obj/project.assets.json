@@ -6616,6 +6616,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CompositionRoot >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
     ]
   },
@@ -6654,6 +6655,9 @@
           "projectReferences": {
             "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\CompositionRoot\\CompositionRoot.csproj": {
               "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\CompositionRoot\\CompositionRoot.csproj"
+            },
+            "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Domain.csproj"
             }
           }
         }

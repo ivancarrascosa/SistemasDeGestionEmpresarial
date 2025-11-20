@@ -20,7 +20,7 @@ namespace Domain.Mappers
                 throw new Exception("Departamento no encontrado");
             }
             string nombreDepartamento = departamento.nombre;
-            return new PersonaConNombreDeDepartamentoDTO(persona.id, persona.nombre, persona.apellido, persona.direccion, persona.telefono, persona.fechaNac, persona.imagen, nombreDepartamento)
+            return new PersonaConNombreDeDepartamentoDTO(persona.id, persona.nombre, persona.apellido, persona.direccion, persona.telefono, persona.fechaNac, persona.imagen, nombreDepartamento);
         }
     }
 }

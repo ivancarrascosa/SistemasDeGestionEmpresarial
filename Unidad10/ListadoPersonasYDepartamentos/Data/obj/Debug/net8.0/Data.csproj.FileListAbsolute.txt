@@ -4,3 +4,13 @@ C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPe
 C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
 C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
 C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.sourcelink.json
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\bin\Debug\net8.0\Data.deps.json
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\bin\Debug\net8.0\Data.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\bin\Debug\net8.0\Data.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\bin\Debug\net8.0\Domain.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\bin\Debug\net8.0\Domain.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.csproj.Up2Date
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\Data.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\Data\obj\Debug\net8.0\ref\Data.dll

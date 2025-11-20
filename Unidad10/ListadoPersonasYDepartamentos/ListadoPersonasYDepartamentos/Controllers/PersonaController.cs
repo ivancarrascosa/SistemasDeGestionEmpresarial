@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Domain.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace UI.Controllers
@@ -6,9 +7,9 @@ namespace UI.Controllers
     public class PersonaController : Controller
     {
         // GET: PersonaController
-        public ActionResult Index()
+        public ActionResult Index(IUseCase useCase)
         {
-            return View();
+            return View(useCase.getListaPersonasConDepartamento());
         }
 
         // GET: PersonaController/Details/5

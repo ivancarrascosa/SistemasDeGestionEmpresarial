@@ -4,3 +4,15 @@ C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPe
 C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.AssemblyInfo.cs
 C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.csproj.CoreCompileInputs.cache
 C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.sourcelink.json
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\CompositionRoot.deps.json
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\CompositionRoot.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\CompositionRoot.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\Data.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\Domain.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\Data.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\bin\Debug\net8.0\Domain.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\Composit.CFE0C182.Up2Date
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\refint\CompositionRoot.dll
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\CompositionRoot.pdb
+C:\Users\ivan.carrascosa\Desktop\SistemasDeGestionEmpresarial\Unidad10\ListadoPersonasYDepartamentos\CompositionRoot\obj\Debug\net8.0\ref\CompositionRoot.dll
