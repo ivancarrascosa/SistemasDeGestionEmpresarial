@@ -10,7 +10,7 @@ using Data.Database;
 
 namespace Data.Repositories
 {
-    public class PersonasRepositoryAzure : IRepository
+    public class PersonasRepositoryAzure : IRepositoryPersonas
     {
         public Departamento[] getListaDepartamentos()
         {

@@ -12,10 +12,10 @@ namespace CompositionRoot
         public static IServiceCollection AddCompositionRoot(this IServiceCollection services, IConfiguration configuration)
         {
             //Registrar repositorios concretos
-            services.AddScoped<IRepository, PersonasRepositoryAzure>();
+            services.AddScoped<IRepositoryPersonas, PersonasRepositoryAzure>();
 
             //Registrar casos de uso
-            services.AddScoped<IUseCase, DefaultUseCase>();
+            services.AddScoped<IUseCasePersonas, DefaultUseCasePersonas>();
 
             return services;
         }

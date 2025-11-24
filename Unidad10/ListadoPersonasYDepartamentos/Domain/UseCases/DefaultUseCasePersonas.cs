@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 
 namespace Domain.UseCases
 {
-    public class DefaultUseCase : IUseCase
+    public class DefaultUseCasePersonas : IUseCasePersonas
     {
-        private readonly IRepository _repository;
+        private readonly IRepositoryPersonas _repository;
 
-        public DefaultUseCase(IRepository repository)
+        public DefaultUseCasePersonas(IRepositoryPersonas repository)
         {
             _repository = repository;
         }

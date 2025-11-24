@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IUseCase
+    public interface IUseCasePersonas
     {
         PersonaConNombreDeDepartamentoDTO[] getListaPersonasConDepartamento();
     }

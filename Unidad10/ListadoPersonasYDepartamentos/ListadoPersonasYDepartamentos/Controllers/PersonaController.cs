@@ -6,9 +6,9 @@ namespace UI.Controllers
 {
     public class PersonaController : Controller
     {
-        private readonly IUseCase _useCase;
+        private readonly IUseCasePersonas _useCase;
         // Inyección de dependencias a través del constructor
-        public PersonaController(IUseCase useCase)
+        public PersonaController(IUseCasePersonas useCase)
         {
             _useCase = useCase;
         }
