@@ -11,6 +11,14 @@ namespace Domain.Repositories
     {
         Persona[] getListaPersonas();
 
-        Departamento[] getListaDepartamentos();
+        int crearPersona(Persona personaNueva);
+
+        int actualizarPersona(int idPersona, Persona persona),
+
+        int eliminarPersona(int idPersona);
+
+        Persona getPersonaById(int idPersona);
+
+        int contarPersonadepartamento(int idDepartamento);
     }
 }
