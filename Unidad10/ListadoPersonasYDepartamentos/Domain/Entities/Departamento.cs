@@ -14,12 +14,14 @@ namespace Domain.Entities
         public int id
         {
             get { return _id; }
+            set { _id = value; }
         }
         public string nombre
         {
             get { return _nombre; }
             set { _nombre = value; }
         }
+        public Departamento() { }
 
         public Departamento(int id, string nombre)
         {

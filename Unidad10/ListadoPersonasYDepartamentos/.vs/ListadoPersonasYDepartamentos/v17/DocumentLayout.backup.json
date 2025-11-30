@@ -3,72 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\views\\persona\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\views\\departamento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\controllers\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\views\\departamento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\views\\departamento\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\usecases\\defaultusecasepersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\defaultusecasepersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\usecases\\defaultusecasedepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\defaultusecasedepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\dtos\\personaconlistadedepartamentosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personaconlistadedepartamentosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\interfaces\\iusecasepersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusecasepersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\dtos\\personaconnombrededepartamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\personaconnombrededepartamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\interfaces\\iusecasedepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusecasedepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B990F652-16DF-437F-B61C-3A44E23D836B}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B990F652-16DF-437F-B61C-3A44E23D836B}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\repositories\\irepositorypersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\irepositorypersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\domain\\repositories\\irepositorydepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299C231B-4F1D-43A2-9B8F-FBD1C2539A71}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\irepositorydepartamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|c:\\users\\usuario\\desktop\\sistemasdegestionempresarial\\unidad10\\listadopersonasydepartamentos\\listadopersonasydepartamentos\\views\\departamento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3E19FE0-F6C8-4A0C-8BB9-A8B96682CDAD}|ListadoPersonasYDepartamentos\\UI.csproj|solutionrelative:listadopersonasydepartamentos\\views\\departamento\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,220 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Persona\\Create.cshtml",
-              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Views\\Persona\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Persona\\Create.cshtml",
-              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Views\\Persona\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Departamento\\Details.cshtml",
+              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Views\\Departamento\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Departamento\\Details.cshtml",
+              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Views\\Departamento\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T18:00:27.764Z",
+              "WhenOpened": "2025-11-30T19:09:34.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DepartamentoController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Controllers\\DepartamentoController.cs",
               "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Controllers\\DepartamentoController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Controllers\\DepartamentoController.cs",
               "RelativeToolTip": "ListadoPersonasYDepartamentos\\Controllers\\DepartamentoController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwC4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:40:40.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DefaultUseCaseDepartamentos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\UseCases\\DefaultUseCaseDepartamentos.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\DefaultUseCaseDepartamentos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\UseCases\\DefaultUseCaseDepartamentos.cs",
-              "RelativeToolTip": "Domain\\UseCases\\DefaultUseCaseDepartamentos.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA8wEQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:18:59.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DefaultUseCasePersonas.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\UseCases\\DefaultUseCasePersonas.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCases\\DefaultUseCasePersonas.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\UseCases\\DefaultUseCasePersonas.cs",
-              "RelativeToolTip": "Domain\\UseCases\\DefaultUseCasePersonas.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwGgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T12:52:01.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUseCasePersonas.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Interfaces\\IUseCasePersonas.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUseCasePersonas.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Interfaces\\IUseCasePersonas.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUseCasePersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T12:40:29.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUseCaseDepartamentos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Interfaces\\IUseCaseDepartamentos.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUseCaseDepartamentos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Interfaces\\IUseCaseDepartamentos.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUseCaseDepartamentos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T16:59:51.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Controllers\\PersonaController.cs",
-              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Controllers\\PersonaController.cs",
-              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T09:21:13.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T09:17:01.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Persona\\Index.cshtml",
-              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Views\\Persona\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Persona\\Index.cshtml",
-              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Views\\Persona\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T09:16:01.696Z",
+              "WhenOpened": "2025-11-30T19:08:45.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Departamento\\Index.cshtml",
-              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Views\\Departamento\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Departamento\\Index.cshtml",
-              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Views\\Departamento\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Departamento\\Create.cshtml",
+              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Views\\Departamento\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Views\\Departamento\\Create.cshtml",
+              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Views\\Departamento\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T17:46:41.13Z",
+              "WhenOpened": "2025-11-30T19:07:56.408Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ListadoPersonasYDepartamentos\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\ListadoPersonasYDepartamentos\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ListadoPersonasYDepartamentos\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:23:41.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PersonaConNombreDeDepartamentoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\DTOs\\PersonaConNombreDeDepartamentoDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaConNombreDeDepartamentoDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\DTOs\\PersonaConNombreDeDepartamentoDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\PersonaConNombreDeDepartamentoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T13:13:35.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PersonaConListaDeDepartamentosDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\DTOs\\PersonaConListaDeDepartamentosDTO.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\PersonaConListaDeDepartamentosDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\DTOs\\PersonaConListaDeDepartamentosDTO.cs",
-              "RelativeToolTip": "Domain\\DTOs\\PersonaConListaDeDepartamentosDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T17:03:36.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IRepositoryDepartamentos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Repositories\\IRepositoryDepartamentos.cs",
-              "RelativeDocumentMoniker": "Domain\\Repositories\\IRepositoryDepartamentos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Repositories\\IRepositoryDepartamentos.cs",
-              "RelativeToolTip": "Domain\\Repositories\\IRepositoryDepartamentos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T12:53:07.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Entities\\Persona.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Entities\\Persona.cs",
-              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T13:35:54.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IRepositoryPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Repositories\\IRepositoryPersonas.cs",
-              "RelativeDocumentMoniker": "Domain\\Repositories\\IRepositoryPersonas.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\Domain\\Repositories\\IRepositoryPersonas.cs",
-              "RelativeToolTip": "Domain\\Repositories\\IRepositoryPersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T12:40:46.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DI.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\CompositionRoot\\DI.cs",
-              "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\SistemasDeGestionEmpresarial\\Unidad10\\ListadoPersonasYDepartamentos\\CompositionRoot\\DI.cs",
-              "RelativeToolTip": "CompositionRoot\\DI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T09:24:10.267Z"
             }
           ]
         }

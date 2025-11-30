@@ -55,6 +55,7 @@ namespace Domain.Entities
         public string imagen
         {
             get { return _imagen; }
+            set { _imagen = value; }
         }
         public int idDepartamento
         {
