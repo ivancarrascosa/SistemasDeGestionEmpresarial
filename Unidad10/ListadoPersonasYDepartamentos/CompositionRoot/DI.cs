@@ -17,6 +17,9 @@ namespace CompositionRoot
             //Registrar casos de uso
             services.AddScoped<IUseCasePersonas, DefaultUseCasePersonas>();
 
+            services.AddScoped<IRepositoryDepartamentos, DepartamentosRepositoryAzure>();
+            services.AddScoped<IUseCaseDepartamentos, DefaultUseCaseDepartamentos>();
+
             return services;
         }
     }

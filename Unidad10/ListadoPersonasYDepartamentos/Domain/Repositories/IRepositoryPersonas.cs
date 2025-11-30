@@ -13,7 +13,7 @@ namespace Domain.Repositories
 
         int crearPersona(Persona personaNueva);
 
-        int actualizarPersona(int idPersona, Persona persona),
+        int actualizarPersona(int idPersona, Persona persona);
 
         int eliminarPersona(int idPersona);
 
