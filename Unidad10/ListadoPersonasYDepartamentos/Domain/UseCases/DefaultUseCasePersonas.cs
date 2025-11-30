@@ -22,47 +22,85 @@ namespace Domain.UseCases
             _repositoryDepartamentos = repositoryDepartamentos;
         }
 
-        public int ActualizarPersona(int id, Persona persona)
+        public List<PersonaConNombreDeDepartamentoDTO> getListaPersonasConDepartamento()
         {
-            throw new NotImplementedException();
-        }
+            String nombreDepartamento = "";
+            List<PersonaConNombreDeDepartamentoDTO> listaPersonasConNombreDepartamento = new List<PersonaConNombreDeDepartamentoDTO>();
+            List<Departamento> listaDepartamentos = _repositoryDepartamentos.getListaDepartamentos().ToList();
 
-        public int CrearPersona(Persona persona)
-        {
-            throw new NotImplementedException();
-        }
+            foreach (Persona persona in _repositoryPersonas.getListaPersonas())
+            {
+                nombreDepartamento = listaDepartamentos
+                    .Where(departamento => departamento.id == persona.idDepartamento)
+                    .First().nombre;
 
-        public int EliminarPersona(int id)
-        {
-            throw new NotImplementedException();
+                listaPersonasConNombreDepartamento.Add(
+                    new PersonaConNombreDeDepartamentoDTO(
+                        persona.id,
+                        persona.nombre,
+                        persona.apellido,
+                        persona.direccion,
+                        persona.telefono,
+                        persona.fechaNac,
+                        persona.imagen,
+                        nombreDepartamento
+                    )
+                );
+            }
+
+            return listaPersonasConNombreDepartamento;
         }
 
         public PersonaConNombreDeDepartamentoDTO GetDetallePersona(int id)
         {
-            throw new NotImplementedException();
-        }
+            Persona persona = _repositoryPersonas.getPersonaById(id);
 
-        public List<PersonaConNombreDeDepartamentoDTO> getListaPersonasConDepartamento()
-        {
-            String nombreDepartamento = "";
-            List<PersonaConNombreDeDepartamentoDTO> listaPersonasConNombreDepartamento = [];
-            List<Departamento> listaDepartamentos = _repositoryDepartamentos.getListaDepartamentos().ToList();
-            foreach (Persona persona in _repositoryPersonas.getListaPersonas())
-            {
-                nombreDepartamento = listaDepartamentos.Where(departamento => departamento.id == persona.idDepartamento).First().nombre;
-                listaPersonasConNombreDepartamento.Add(new PersonaConNombreDeDepartamentoDTO(persona.id, persona.nombre,persona.apellido, persona.direccion, persona.telefono, persona.fechaNac, persona.imagen, nombreDepartamento));
-            }
-            return listaPersonasConNombreDepartamento;
-        }
+            if (persona == null)
+                return null;
 
-        public PersonaConListaDeDepartamentosDTO GetPersonaParaCrear()
-        {
-            throw new NotImplementedException();
+            Departamento departamento = _repositoryDepartamentos.getDepartamentoById(persona.idDepartamento);
+
+            return new PersonaConNombreDeDepartamentoDTO(
+                persona.id,
+                persona.nombre,
+                persona.apellido,
+                persona.direccion,
+                persona.telefono,
+                persona.fechaNac,
+                persona.imagen,
+                departamento.nombre
+            );
         }
 
         public PersonaConListaDeDepartamentosDTO GetPersonaConListaDepartamentos(int id)
         {
-            throw new NotImplementedException();
+            Persona persona = _repositoryPersonas.getPersonaById(id);
+            List<Departamento> departamentos = _repositoryDepartamentos.getListaDepartamentos().ToList();
+
+            return new PersonaConListaDeDepartamentosDTO(persona, departamentos);
+        }
+
+        public PersonaConListaDeDepartamentosDTO GetPersonaParaCrear()
+        {
+            Persona personaVacia = new Persona();
+            List<Departamento> departamentos = _repositoryDepartamentos.getListaDepartamentos().ToList();
+
+            return new PersonaConListaDeDepartamentosDTO(personaVacia, departamentos);
+        }
+
+        public int CrearPersona(Persona persona)
+        {
+            return _repositoryPersonas.crearPersona(persona);
+        }
+
+        public int ActualizarPersona(int id, Persona persona)
+        {
+            return _repositoryPersonas.actualizarPersona(id, persona);
+        }
+
+        public int EliminarPersona(int id)
+        {
+            return _repositoryPersonas.eliminarPersona(id);
         }
     }
 }

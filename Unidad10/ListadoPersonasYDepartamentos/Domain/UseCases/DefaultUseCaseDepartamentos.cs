@@ -1,5 +1,6 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
+using Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,39 +11,60 @@ namespace Domain.UseCases
 {
     public class DefaultUseCaseDepartamentos : IUseCaseDepartamentos
     {
-        public void ActualizarDepartamento(Departamento departamento)
-        {
-            throw new NotImplementedException();
-        }
+        private readonly IRepositoryDepartamentos _repositoryDepartamentos;
+        private readonly IRepositoryPersonas _repositoryPersonas;
 
-        public void CrearDepartamento(Departamento departamento)
+        public DefaultUseCaseDepartamentos(IRepositoryDepartamentos repositoryDepartamentos, IRepositoryPersonas repositoryPersonas)
         {
-            throw new NotImplementedException();
-        }
-
-        public void EliminarDepartamento(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Departamento GetDepartamentoParaEditar(int id)
-        {
-            throw new NotImplementedException();
+            _repositoryDepartamentos = repositoryDepartamentos;
+            _repositoryPersonas = repositoryPersonas;
         }
 
         public List<Departamento> GetDepartamentos()
         {
-            throw new NotImplementedException();
+            return _repositoryDepartamentos.getListaDepartamentos().ToList();
         }
 
         public Departamento GetDetalleDepartamento(int id)
         {
-            throw new NotImplementedException();
+            return _repositoryDepartamentos.getDepartamentoById(id);
+        }
+
+        public Departamento GetDepartamentoParaEditar(int id)
+        {
+            return _repositoryDepartamentos.getDepartamentoById(id);
         }
 
         public List<Persona> GetPersonasPorDepartamento(int id)
         {
-            throw new NotImplementedException();
+            return _repositoryPersonas.getListaPersonas()
+                .Where(p => p.idDepartamento == id)
+                .ToList();
+        }
+
+        public void CrearDepartamento(Departamento departamento)
+        {
+            _repositoryDepartamentos.crearDepartamento(departamento);
+        }
+
+        public void ActualizarDepartamento(Departamento departamento)
+        {
+            _repositoryDepartamentos.actualizarDepartamento(departamento.id, departamento);
+        }
+
+        public void EliminarDepartamento(int id)
+        {
+            // Verificar si hay personas en este departamento
+            int cantidadPersonas = _repositoryPersonas.contarPersonadepartamento(id);
+
+            if (cantidadPersonas > 0)
+            {
+                throw new InvalidOperationException(
+                    $"No se puede eliminar el departamento porque tiene {cantidadPersonas} persona(s) asignada(s)."
+                );
+            }
+
+            _repositoryDepartamentos.eliminarDepartamento(id);
         }
     }
 }
