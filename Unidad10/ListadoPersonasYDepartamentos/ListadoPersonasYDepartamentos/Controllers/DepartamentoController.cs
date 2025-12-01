@@ -9,6 +9,12 @@ namespace UI.Controllers
     {
         private readonly IUseCaseDepartamentos _useCase;
 
+        /// <summary>
+        ///     <header>public DepartamentoController(IUseCaseDepartamentos useCase)</header>
+        ///     <description>Constructor que recibe el caso de uso para departamentos por inyección de dependencias.</description>
+        ///     <precondition>El parámetro <c>useCase</c> debe ser una instancia válida que implemente <c>IUseCaseDepartamentos</c>.</precondition>
+        ///     <postcondition>El caso de uso queda asignado al campo privado para su uso en las acciones del controlador.</postcondition>
+        /// </summary>
         public DepartamentoController(IUseCaseDepartamentos useCase)
         {
             _useCase = useCase;
@@ -41,6 +47,12 @@ namespace UI.Controllers
         // POST: DepartamentoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /// <summary>
+        ///     <header>public ActionResult Create(Departamento departamento)</header>
+        ///     <description>Recibe el POST de creación de un departamento; valida el modelo y delega la creación al caso de uso.</description>
+        ///     <precondition>El modelo <c>departamento</c> proviene de Model Binding y puede contener errores de validación.</precondition>
+        ///     <postcondition>Si la creación es exitosa redirige a Index; si hay errores vuelve a mostrar la vista con errores en <c>ModelState</c>.</postcondition>
+        /// </summary>
         public ActionResult Create(Departamento departamento) // Recibe la entidad Departamento
         {
             // 1. Validar el modelo
@@ -79,6 +91,12 @@ namespace UI.Controllers
         // POST: DepartamentoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /// <summary>
+        ///     <header>public ActionResult Edit(int id, Departamento departamento)</header>
+        ///     <description>Recibe el POST de edición de un departamento; valida el modelo y delega la actualización al caso de uso.</description>
+        ///     <precondition>El parámetro <c>id</c> debe coincidir con <c>departamento.id</c> y el modelo puede contener errores de validación.</precondition>
+        ///     <postcondition>Si la actualización es exitosa redirige a Index; si hay errores vuelve a mostrar la vista con errores en <c>ModelState</c>.</postcondition>
+        /// </summary>
         public ActionResult Edit(int id, Departamento departamento)
         {
             // El ID de la ruta debe coincidir con el ID del objeto (proporcionado por el Model Binder)
@@ -128,6 +146,12 @@ namespace UI.Controllers
         // POST: DepartamentoController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /// <summary>
+        ///     <header>public ActionResult Delete(int id, IFormCollection collection)</header>
+        ///     <description>Recibe el POST de eliminación de un departamento; delega la eliminación al caso de uso y maneja excepciones específicas.</description>
+        ///     <precondition>El identificador <c>id</c> corresponde a un departamento existente o el caso de uso maneja internamente la inexistencia.</precondition>
+        ///     <postcondition>Si la eliminación es exitosa redirige a Index; si falla por tener personas asignadas redirige a la vista Delete mostrando el error; otras excepciones redirigen a Index con mensaje.</postcondition>
+        /// </summary>
         public ActionResult Delete(int id, IFormCollection collection)
         {
             try

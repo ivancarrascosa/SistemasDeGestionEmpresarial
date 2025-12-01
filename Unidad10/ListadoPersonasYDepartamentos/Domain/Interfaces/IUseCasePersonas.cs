@@ -10,6 +10,8 @@ namespace Domain.Interfaces
 {
     public interface IUseCasePersonas
     {
+        List<Persona> getPersonas();
+        Persona getPersona(int id);
         List<PersonaConNombreDeDepartamentoDTO> getListaPersonasConDepartamento();
         PersonaConNombreDeDepartamentoDTO GetDetallePersona(int id);
         PersonaConListaDeDepartamentosDTO GetPersonaConListaDepartamentos(int id);

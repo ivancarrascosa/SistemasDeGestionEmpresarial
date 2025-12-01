@@ -41,6 +41,12 @@ namespace UI.Controllers
         // POST: PersonaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /// <summary>
+        ///     <header>public ActionResult Create(Persona persona)</header>
+        ///     <description>Recibe el POST de creación de una nueva persona; valida el modelo y delega la creación al caso de uso.</description>
+        ///     <precondition>El modelo <c>persona</c> proviene de Model Binding y puede contener errores de validación.</precondition>
+        ///     <postcondition>Si la creación es exitosa redirige a Index; si hay errores vuelve a mostrar la vista de creación con errores en <c>ModelState</c>.</postcondition>
+        /// </summary>
         public ActionResult Create(Persona persona)
         {
             // 1. Validar el modelo para capturar errores de Model Binding o Data Annotations
@@ -91,6 +97,12 @@ namespace UI.Controllers
         // POST: PersonaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /// <summary>
+        ///     <header>public ActionResult Edit(int id, Persona persona)</header>
+        ///     <description>Recibe el POST de edición de una persona; valida el modelo y delega la actualización al caso de uso.</description>
+        ///     <precondition>El parámetro <c>id</c> debe coincidir con <c>persona.id</c> y el modelo puede contener errores de validación.</precondition>
+        ///     <postcondition>Si la actualización es exitosa redirige a Index; si hay errores vuelve a mostrar la vista de edición con errores en <c>ModelState</c>.</postcondition>
+        /// </summary>
         public ActionResult Edit(int id, Persona persona)
         {
             if (id != persona.id)
@@ -146,6 +158,12 @@ namespace UI.Controllers
         // POST: PersonaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        /// <summary>
+        ///     <header>public ActionResult Delete(int id, IFormCollection collection)</header>
+        ///     <description>Recibe el POST de eliminación de una persona; delega la eliminación al caso de uso y maneja errores.</description>
+        ///     <precondition>El identificador <c>id</c> corresponde a una persona existente o el caso de uso maneja internamente la inexistencia.</precondition>
+        ///     <postcondition>Si la eliminación es exitosa redirige a Index; si falla, añade un error a <c>ModelState</c> y devuelve la vista actual.</postcondition>
+        /// </summary>
         public ActionResult Delete(int id, IFormCollection collection)
         {
             try

@@ -13,8 +13,8 @@ namespace Domain.Interfaces
         Departamento GetDetalleDepartamento(int id);
         Departamento GetDepartamentoParaEditar(int id);
         List<Persona> GetPersonasPorDepartamento(int id);
-        void CrearDepartamento(Departamento departamento);
-        void ActualizarDepartamento(Departamento departamento);
-        void EliminarDepartamento(int id);
+        int CrearDepartamento(Departamento departamento);
+        int ActualizarDepartamento(Departamento departamento);
+        int EliminarDepartamento(int id);
     }
 }

@@ -9,11 +9,23 @@ using System.Threading.Tasks;
 
 namespace Domain.UseCases
 {
+    /// <summary>
+    ///     <header>public class DefaultUseCaseDepartamentos : IUseCaseDepartamentos</header>
+    ///     <description>Implementación por defecto de los casos de uso relacionados con Departamentos.</description>
+    ///     <precondition>Se requieren repositorios válidos para departamentos y personas inyectados en el constructor.</precondition>
+    ///     <postcondition>Proporciona métodos para obtener, crear, actualizar y eliminar departamentos, y obtener personas por departamento.</postcondition>
+    /// </summary>
     public class DefaultUseCaseDepartamentos : IUseCaseDepartamentos
     {
         private readonly IRepositoryDepartamentos _repositoryDepartamentos;
         private readonly IRepositoryPersonas _repositoryPersonas;
 
+        /// <summary>
+        ///     <header>public DefaultUseCaseDepartamentos(IRepositoryDepartamentos repositoryDepartamentos, IRepositoryPersonas repositoryPersonas)</header>
+        ///     <description>Constructor que recibe las dependencias de repositorio necesarias.</description>
+        ///     <precondition>Los parámetros `repositoryDepartamentos` y `repositoryPersonas` deben ser instancias válidas.</precondition>
+        ///     <postcondition>Los repositorios quedan almacenados en campos privados para su uso por los métodos del caso de uso.</postcondition>
+        /// </summary>
         public DefaultUseCaseDepartamentos(IRepositoryDepartamentos repositoryDepartamentos, IRepositoryPersonas repositoryPersonas)
         {
             _repositoryDepartamentos = repositoryDepartamentos;
@@ -42,17 +54,24 @@ namespace Domain.UseCases
                 .ToList();
         }
 
-        public void CrearDepartamento(Departamento departamento)
+        public int CrearDepartamento(Departamento departamento)
         {
-            _repositoryDepartamentos.crearDepartamento(departamento);
+            return (_repositoryDepartamentos.crearDepartamento(departamento));
         }
 
-        public void ActualizarDepartamento(Departamento departamento)
+        public int ActualizarDepartamento(Departamento departamento)
         {
-            _repositoryDepartamentos.actualizarDepartamento(departamento.id, departamento);
+            return (_repositoryDepartamentos.actualizarDepartamento(departamento.id, departamento));
         }
 
-        public void EliminarDepartamento(int id)
+        /// <summary>
+        ///     <header>public int EliminarDepartamento(int id)</header>
+        ///     <description>Elimina el departamento si no tiene personas asignadas; lanza una excepción si existen personas en el departamento.</description>
+        ///     <precondition>El repositorio de personas debe proporcionar el método contarPersonadepartamento y el repositorio de departamentos debe soportar la eliminación por id.</precondition>
+        ///     <postcondition>Si hay personas asignadas, se lanza InvalidOperationException. Si no, se delega la eliminación al repositorio y se devuelve su resultado.</postcondition>
+        /// </summary>
+        /// <returns>Devuelve int con el resultado de la operación de eliminación proporcionado por el repositorio.</returns>
+        public int EliminarDepartamento(int id)
         {
             // Verificar si hay personas en este departamento
             int cantidadPersonas = _repositoryPersonas.contarPersonadepartamento(id);
@@ -64,7 +83,7 @@ namespace Domain.UseCases
                 );
             }
 
-            _repositoryDepartamentos.eliminarDepartamento(id);
+            return (_repositoryDepartamentos.eliminarDepartamento(id));
         }
     }
 }
