@@ -29,7 +29,7 @@ namespace UI.Controllers
         // GET: DepartamentoController/Details/5
         public ActionResult Details(int id)
         {
-            var departamento = _useCase.GetDetalleDepartamento(id);
+            Departamento departamento = _useCase.GetDetalleDepartamento(id);
             if (departamento == null)
             {
                 return NotFound();
@@ -80,7 +80,7 @@ namespace UI.Controllers
         // GET: DepartamentoController/Edit/5
         public ActionResult Edit(int id)
         {
-            var departamento = _useCase.GetDepartamentoParaEditar(id);
+            Departamento departamento = _useCase.GetDepartamentoParaEditar(id);
             if (departamento == null)
             {
                 return NotFound();
@@ -130,13 +130,13 @@ namespace UI.Controllers
         // GET: DepartamentoController/Delete/5
         public ActionResult Delete(int id)
         {
-            var departamento = _useCase.GetDetalleDepartamento(id);
+            Departamento departamento = _useCase.GetDetalleDepartamento(id);
             if (departamento == null)
             {
                 return NotFound();
             }
 
-            var personas = _useCase.GetPersonasPorDepartamento(id);
+            List<Persona> personas = _useCase.GetPersonasPorDepartamento(id);
             ViewBag.CantidadPersonas = personas.Count;
             ViewBag.TienePersonas = personas.Count > 0;
 

@@ -1,4 +1,4 @@
-﻿@model Domain.DTOs.PersonaConListaDeDepartamentosDTO
+﻿@model List<Domain.Entities.Departamento>
 
 @{
     ViewData["Title"] = "Create";
@@ -40,7 +40,7 @@
                 <label for="idDepartamento" class="control-label">Departamento</label>
                 <select name="idDepartamento" class="form-control">
                     <option value="">-- Seleccione un departamento --</option>
-                    @foreach (var depto in Model.Departamentos)
+                    @foreach (var depto in Model)
                     {
                         <option value="@depto.id">@depto.nombre</option>
                     }

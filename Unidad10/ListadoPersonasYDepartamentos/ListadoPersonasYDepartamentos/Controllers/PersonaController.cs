@@ -8,10 +8,11 @@ namespace UI.Controllers
     public class PersonaController : Controller
     {
         private readonly IUseCasePersonas _useCase;
-
-        public PersonaController(IUseCasePersonas useCase)
+        private readonly IUseCaseDepartamentos _useCaseDepartamentos;
+        public PersonaController(IUseCasePersonas useCase, IUseCaseDepartamentos useCaseDepartamentos)
         {
             _useCase = useCase;
+            _useCaseDepartamentos = useCaseDepartamentos;
         }
 
         // GET: PersonaController
@@ -34,8 +35,8 @@ namespace UI.Controllers
         // GET: PersonaController/Create
         public ActionResult Create()
         {
-            var personaConDepartamentos = _useCase.GetPersonaParaCrear();
-            return View(personaConDepartamentos);
+            List<Departamento> departamentos = _useCaseDepartamentos.GetDepartamentos();
+            return View(departamentos);
         }
 
         // POST: PersonaController/Create
