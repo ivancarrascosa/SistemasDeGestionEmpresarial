@@ -181,5 +181,17 @@ namespace Domain.UseCases
         {
             return _repositoryPersonas.getPersonaById(id);
         }
+
+        public List<PersonaConListaDeDepartamentosDTO> getListaPersonasConListaDepartamentos()
+        {
+            Persona[] listaPersonas = _repositoryPersonas.getListaPersonas();
+            List<PersonaConListaDeDepartamentosDTO> personaConListaDeDepartamentos = [];
+            List<Departamento> departamentos = _repositoryDepartamentos.getListaDepartamentos().ToList();
+            foreach (Persona persona in listaPersonas)
+            {
+                personaConListaDeDepartamentos.Add(new PersonaConListaDeDepartamentosDTO(persona, departamentos));
+            }
+            return personaConListaDeDepartamentos;
+        }
     }
 }

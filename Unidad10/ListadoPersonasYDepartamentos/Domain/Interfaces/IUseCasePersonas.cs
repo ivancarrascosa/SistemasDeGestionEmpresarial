@@ -13,6 +13,8 @@ namespace Domain.Interfaces
         List<Persona> getPersonas();
         Persona getPersona(int id);
         List<PersonaConNombreDeDepartamentoDTO> getListaPersonasConDepartamento();
+
+        List<PersonaConListaDeDepartamentosDTO> getListaPersonasConListaDepartamentos();
         PersonaConNombreDeDepartamentoDTO GetDetallePersona(int id);
         PersonaConListaDeDepartamentosDTO GetPersonaConListaDepartamentos(int id);
         PersonaConListaDeDepartamentosDTO GetPersonaParaCrear();
